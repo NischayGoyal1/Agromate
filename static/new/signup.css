@@ -1,0 +1,195 @@
+img{
+    height: 600px;
+    width: 450px;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+input.checkbox{
+    margin-left: 0;
+    width: 1rem;
+   
+    margin-right: 1rem;
+}
+.new{
+    display: flex;
+}
+.info3{
+    display: flex;
+}
+.crop{
+    padding: 20px;
+    display: grid;
+padding-left: 0;
+}
+.adhar{
+    
+    padding: 20px;
+    display: grid;
+padding-left: 0;
+}
+.terms{
+    display: flex;
+    
+}
+.country{
+    padding: 20px;
+    display: grid;
+    padding-left: 0;
+}
+select{
+    outline: none;
+    width: 15rem;
+    height: 2rem;
+}
+.state{
+    padding: 20px;
+    display: grid;
+    padding-left: 0;
+    
+}
+.info1{
+    display: flex;
+   
+}
+.name{
+    padding: 20px;
+    display: grid;
+    padding-left: 0;
+}
+.phone{
+    padding: 20px;
+    display: grid;
+    padding-left: 0;
+}
+.area{
+    display: flex;
+   
+}
+
+.info2{
+    display: flex;
+   
+}
+.email{
+    padding: 20px;
+    display: grid;
+    padding-left: 0;
+}
+.pass{
+    padding: 20px;
+    display: grid;
+    padding-left: 0;
+}
+.signup{
+    display: flex;
+   margin-left: 10rem;
+}
+.content h1{
+    font-size: 50px;
+}
+.content label{
+    font-weight: 50px;
+    font-size: 20px;
+
+}
+input{
+  outline: none;
+  width: 15rem;
+  height: 2rem;
+ font-size: 15px;
+}
+.content{
+    border: 1px solid black;
+    box-shadow: 2px 9px 15px gray;
+    padding: 20px;
+    margin-top: 6rem;
+    margin-left: 20rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+button{
+    width: 5.5rem;
+    height: 2.1rem;
+   
+    border-radius: 1rem;
+    outline: none;
+    background-color: rgba(81, 255, 0, 0.534);
+    font-weight: 80rem;
+    border: none;
+    padding: 5px;
+    font-size: 17px;
+    
+}
+button:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgba(82, 248, 32, 0.747);
+
+}
+
+@media (max-width: 1000px){
+    img{
+        height: 450px;
+        width: 450px;
+        margin-top: 1rem;
+        margin-left: 9rem;
+    }
+    
+    .signup{
+        display: grid;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .content label{
+        font-weight: 50px;
+        font-size: 20px;
+    
+    }
+    input{
+      outline: none;
+      width: 15rem;
+      height: 1.7rem;
+     font-size: 15px;
+    }
+    .content{
+
+        margin-top: 1rem;
+        margin-left: 14rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+    }
+}
+@media (max-width: 425px){
+    img{
+        height: 400px;
+        width: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .signup{
+        display: grid;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .content label{
+        font-weight: 50px;
+        font-size: 20px;
+    
+    }
+    input{
+      outline: none;
+      width: 15rem;
+      height: 1.7rem;
+     font-size: 15px;
+    }
+    .content{
+
+        margin-top: 1rem;
+        margin-left: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+    }
+}

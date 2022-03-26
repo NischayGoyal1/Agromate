@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="../static/dash.css">
+    <!-- favicon -->
+    <link rel="icon" href="../static/images/favicon.ico">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/4e9e2509eb.js" crossorigin="anonymous"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h1>Agromate</h>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="search here">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            <i class="fa fa-bell" aria-hidden="true"></i>
+            <div class="user">
+                <img src="../static/images/user.png" alt="">
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="/">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <div>Home</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/flogin">
+                        <i class="fa fa-th" aria-hidden="true"></i>
+                        <div>Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/landlord">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <div>Nearby Landlords</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/charts">
+                        <i class="fa fa-tasks" aria-hidden="true"></i>
+                        <div>Progress Tracker</div>
+                    </a>
+                </li>
+              
+                <li>
+                    <a href="https://powerful-cove-99808.herokuapp.com/">
+                        <i class="fa fa-certificate" aria-hidden="true"></i>
+                        <div>Disease Detector</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/agora">
+                        <i class="fa fa-video-camera" aria-hidden="true"></i>
+                        <div>Video Call</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/flogin">
+                        <i class="fa fa-sign-out " aria-hidden="true"></i>
+                        <div>Log-out</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+{% block body %}
+
+{% endblock %}
+
+
+</body>
+</html>

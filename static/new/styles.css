@@ -1,0 +1,99 @@
+body{
+  background-color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+    
+   
+   
+/* NAVBAR */
+.navbar{
+  background-color: #85C88A;
+}
+.nav-item{
+    padding: 0 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar-brand{
+  font-family: 'Red Hat Mono', monospace;
+}
+.navrig{
+    margin: auto 3% auto auto;
+}
+
+
+.button:hover {
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  text-decoration: none;
+}
+
+
+#signup,#signin{
+  border-radius: 21px;
+}
+
+.dropdown-menu{
+background-color: grey;
+}
+.dropdown-item{
+  background-color: grey;
+
+}
+
+
+
+
+/* About us */
+#title{
+  padding: 7% 2% 5% 2% ;
+  background-color: white ;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+/* Feedback */
+.carousel {
+    background-color: #85C88A;
+    align-items: center;
+    text-align: center  ;
+    height: 25rem;
+  }
+  
+#mycarousel{
+   background-color: wheat;
+   
+ } 
+.carousel-item{
+  padding: 5% 10%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 0 0 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    background-color: #85C88A;
+}
+
+.foot{
+    margin: 10px  8px;
+}

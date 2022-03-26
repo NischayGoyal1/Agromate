@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+<div class="main">
+    
+            <h1>Namaste, {{ todo.name }} </h1>
+            <div class="dashh">
+             
+               <div class="card1">
+                <img src="../static/images/user.png" alt="">
+                <div class="list"><ul>
+                    <li>NAME:{{ todo.name }} </li>
+                    <li>E-MAIL: {{ todo.mail }}</li>
+                    <li>PH: {{ todo.phn }}</li>
+                    <li>STATE: {{ todo.state }}</li>
+                    <li>REGION: {{ todo.region }}</li>
+                    <li>AADHAR: {{ todo.aadhar }}</li>
+                    
+                </ul></div>
+               </div>
+              
+
+               <div class="card2">
+                   <img src="../static/images/Farmer-bro.png" alt="">
+                   <p>Welcome! Agromate can help you in <i><br>Connecting to farmers<br> Connecting with Landlords<br> plant disease detection <br>Suggesting cure for your crop</i> <br> We hope you have a great experience with AGROMATE! </p>
+               </div>
+            </div>
+        </div>
+
+        {% endblock %}

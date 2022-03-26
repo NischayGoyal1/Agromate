@@ -1,0 +1,29 @@
+       
+{% extends "layout.html" %}
+
+{% block body %}
+        <div class="main2">
+          <h2>LIST OF LANDLORDS IN YOUR AREA....</h2>
+          <div class="dashh">
+            {% for i in user %}
+              <div class="box">
+                <img src="../static/images/user2.png" alt="">
+                  <div class="content">
+                   <ul>
+                    <li>NAME:{{i.name}}</li>
+                    <li>E-MAIL:{{i.mail}}</li>
+                    <li>PH:{{i.phn}}</li>
+                    <li>STATE:{{i.state}}</li>
+                    <li>REGION:{{i.region}}</li>
+                    <li>CROP TYPE:{{i.crop}}</li>
+                    <li>AADHAR:{{i.aadhar}}</li>
+                   </ul>
+                   <button class="btn"><a href="">START WORK</a></button>
+                  </div>
+              </div>
+              {% endfor %}
+       
+            </div>
+          </div>
+       </div>
+       {% endblock %}
